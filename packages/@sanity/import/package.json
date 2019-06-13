@@ -43,8 +43,9 @@
   },
   "devDependencies": {
     "@sanity/client": "0.140.32",
+    "babel-jest": "^24.8.0",
     "get-it": "^5.0.0",
-    "jest": "^23.6.0",
+    "jest": "^24.8.0",
     "rimraf": "^2.6.2"
   },
   "jest": {
