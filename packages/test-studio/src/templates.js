@@ -18,7 +18,8 @@ export default [
     schemaType: 'book',
     parameters: [{name: 'authorId', type: 'string'}],
     value: params => ({
-      author: {_type: 'reference', _ref: params.authorId}
+      author: {_type: 'reference', _ref: params.authorId},
+      foo: [{_ref: 'some-id-that-doesnt-exist'}, {_ref: 'other-document-id'}]
     })
   })
 ]
